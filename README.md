@@ -58,6 +58,12 @@ src/
             .js
             .scss
 ```
+## first size
+![GitHub Logo](public/ico/1.png)
+
+## second size
+![GitHub Logo](public/ico/2.png)
+
 
 ## Contact
 Copyright (C) 2016 Semianchuk Vitalii<br>
