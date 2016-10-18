@@ -45,6 +45,10 @@ src/
             .js
             .scss
         main/
+            controller/
+            directive/
+            factory/
+            service/
             .html
             .js
             .scss
