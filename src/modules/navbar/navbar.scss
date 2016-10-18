@@ -1,0 +1,59 @@
+nav{
+
+  background: #444c63;
+  text-align: center;
+  navbar{
+    ul{
+      text-align: left;
+      margin: 51px 0 8px 0;
+      padding: 0 0 0 19px;
+      color: #7c839e;
+      font-size: 18px;
+      font-family: Arial;
+      text-transform: capitalize;
+      font-weight: 100;
+      @media (max-width: 1100px) {
+        text-align: center;
+      }
+      li{
+        list-style-type: none;
+        padding: 10px;
+        cursor: pointer;
+
+        a{
+          color: #ffffff;
+          @media (max-width: 1100px) {
+            display: none;
+          }
+        }
+        i{
+          padding-right: 20px;
+          color: #ffffff;
+        }
+      }
+      :hover{
+        color: #c8cedd;
+      }
+    }
+    .progress {
+      height: 1.2rem;
+      padding: 1px;
+      background-color: #f7f7f7;
+      border: 1px solid #eeeeee;
+      overflow: hidden;
+      margin-bottom: 20px;
+      margin: 0 auto;
+      width: 80%;
+      color: #000;
+    }
+    .progress__meter {
+      display: block;
+      height: 100%;
+      background: #5bc0de;
+      -webkit-transition: width 0.5s ease;
+      -o-transition: width 0.5s ease;
+      transition: width 0.5s ease;
+      width: 1%;
+    }
+  }
+}

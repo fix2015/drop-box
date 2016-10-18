@@ -1,0 +1,29 @@
+<div class="main-content">
+    <div class="main-content-top">
+        <h1>Photos</h1>
+    </div>
+    <div class="main-content-middle">
+        <div class="main-content-middle-right">
+            <div class="main-content-middle-right-upload">
+                <i class="fa fa-upload" aria-hidden="true"></i>
+                <i class="fa fa-folder-o" aria-hidden="true"></i>
+                <i class="fa fa-upload" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="main-content-middle-left">
+            <div class="sort-button" ng-repeat="sort in sortButton">
+                <span ng-class="sort.active ? 'active' : 'pass'" ng-click="changeSort(sort.id)">{{sort.name}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="main-content-bottom">
+        <div class="main-content-bottom-img">
+            <div class="main-content-bottom-img-item" ng-repeat="image in dataImage | orderBy:sortBy | filter:searchText">
+                <item data="image"></item>
+            </div>
+        </div>
+    </div>
+</div>
+
+

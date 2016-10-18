@@ -1,0 +1,25 @@
+.input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}
+.header-top{
+  display: flex;
+  justify-content: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: right;
+  padding: 20px 20px 0 0;
+  color: #000000;
+  .search{
+    flex-basis: 10%;
+  }
+  .name-user{
+    flex-basis: 90%;
+  }
+}
