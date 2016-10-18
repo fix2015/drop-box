@@ -51,7 +51,6 @@
   .main-content-bottom{
     flex-basis: 70%;
     background: #ffffff;
-    overflow-y: scroll;
     width: 100%;
     clear: both;
     padding: 30px 10px;
@@ -65,6 +64,9 @@
         flex-basis: 17%;
         @media (max-width: 1100px) {
           flex-basis: 26%;
+        }
+        @media (max-width: 730px) {
+          flex-basis: 45%;
         }
         .item{
           cursor: pointer;
